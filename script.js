@@ -9,7 +9,7 @@ function Factorial (num){
 }
   */
 
-/* console.log("version 2")
+/* 
 function Factorial(num){
     let factorial = 1;
     for (let i = num; i > 0; --i){
@@ -18,7 +18,8 @@ function Factorial(num){
     console.log(factorial);
 }  */
 
-/* function Factorial(num){
+/* 
+function Factorial(num){
     console.log(num*Product(num))
 }
 
