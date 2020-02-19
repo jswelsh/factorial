@@ -18,7 +18,7 @@ function Factorial(num){
     console.log(factorial);
 }  */
 
-function Factorial(num){
+/* function Factorial(num){
     console.log(num*Product(num))
 }
 
@@ -30,3 +30,9 @@ function Product(x){
     }
     return hold * x;
 }
+ */
+function Factorial(num){
+    return (num != 1) ? num * Factorial(--num): 1;
+}
+
+console.log(Factorial(6))
